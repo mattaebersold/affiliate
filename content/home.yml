@@ -1,54 +1,3 @@
-# title: 'Homepage'
-# blocks:
-
-#   # Example of a marquee
-#   -
-#     __typename: 'heroMarquee'
-#     title: 'Partstash'
-#     image: 'imgs/home/bg.jpg'
-#     logo: 'imgs/home/marquee-logo.png'
-#     buttons:
-#       -
-#         label: 'About'
-#         to: '/about'
-#       -
-#         label: 'FAQ'
-#         to: '/faq'
-
-#   # Spacer
-#   -
-#     __typename: 'spacer'
-#     height: 'l'
-
-#   # Example of rendering html
-#   -
-#     __typename: 'headline'
-#     text: Partstash is a marketplace platform for enthusiasts to do business. You can buy, sell, trade cars and parts.
-
-#   # Spacer
-#   -
-#     __typename: 'spacer'
-#     height: 'l'
-
-#   # Example of rendering html
-#   -
-#     __typename: 'copy'
-#     body:
-#       <h2>Features</h2>
-#       <a class='btn'>View App Features</a>
-
-#   -
-#     __typename: 'spacer'
-#     height: 'l'
-
-#   # CTA
-#   -
-#     __typename: 'cta'
-
-#   # Spacer
-#   -
-#     __typename: 'spacer'
-#     height: 'l'
 
 
 
@@ -65,7 +14,7 @@ blocks:
     __typename: 'copy'
     body:
       <h1>Affiliate Marketing Pitch</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id pretium lectus. Quisque hendrerit, nulla ultrices feugiat porta, ex velit venenatis erat, ut posuere lacus odio sit amet leo.</p>
+      <p>this is my pitch</p>
     maxWidth: 'max-w-l'
 
   # Spacer
@@ -88,7 +37,7 @@ blocks:
     __typename: 'copy'
     body:
       <h2>01 / Who</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id pretium lectus. Quisque hendrerit, nulla ultrices feugiat porta, ex velit venenatis erat, ut posuere lacus odio sit amet leo.</p>
+      <p>this is who i choose</p>
 
   # Spacer
   -
