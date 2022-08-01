@@ -1,7 +1,7 @@
 # Use Cloak to make boilerplate
 { mergeConfig, makeBoilerplate, isDev, isGenerating } = require '@bkwld/cloak'
 boilerplate = makeBoilerplate
-	siteName: 'Partstash'
+	siteName: 'Affiliate Pitch'
 	cms: '@nuxt/content'
 	srcsetWidths: [ 1920, 1440, 1024, 768, 425, 210 ]
 
