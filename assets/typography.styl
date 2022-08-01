@@ -1,6 +1,7 @@
 // Wysiwyg styles
 .wysiwyg
 	line-height body-line-height
+	color white
 
 	// Don't let images break out
 	img
@@ -34,17 +35,19 @@
 // Clear default bolded headers
 h1, h2, h3, h4, h5, h6
 	font-weight normal
+	color white
 
 // These classes are set by the WYSIWYG editor and possibly others
-.style-h1
+.style-h1, h1
 	style-h1()
-.style-h2
+.style-h2, h2
 	style-h2()
-.style-h3
+.style-h3, h3
 	style-h3()
-.style-h4
+.style-h4, h4
 	style-h4()
-.style-h5
+.style-h5, h5
 	style-h5()
 .body
 	style-body()
+	color white
