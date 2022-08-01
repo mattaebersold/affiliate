@@ -14,7 +14,7 @@ blocks:
     __typename: 'copy'
     body:
       <h1>Affiliate Marketing Pitch</h1>
-      <p>this is my pitch</p>
+      <p>Hi, my name is Jessica, and I am applying for the Affiliate Marketing Manager position. This is my Skills test as requested by Brandon. </p>
     maxWidth: 'max-w-l'
 
   # Spacer
@@ -36,8 +36,8 @@ blocks:
   -
     __typename: 'copy'
     body:
-      <h2>01 / Who</h2>
-      <p>this is who i choose</p>
+      <h2>01 / Identify one key influencer, creator, website or affiliate marketer in this space.</h2>
+      <p> After some thought, I reached into the back of my industry knowledge mind. After poking around through keynote speakers of Wedding Industry Speakers (a partner of NACE), I found a person I find to be of particular intrest for helping to promote the Guac and Chip Booth. Her name is Julie Roth Novack. She has 20 years of digital marketing experience in the wedding and event industy. She has a focus on building teaching others how to build their brand and their name in the industry. /<p>
 
   # Spacer
   -
