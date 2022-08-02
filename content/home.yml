@@ -13,8 +13,10 @@ blocks:
   -
     __typename: 'copy'
     body:
-      <h1>Affiliate Marketing Pitch</h1>
-      <p>Hi, my name is Jessica, and I am applying for the Affiliate Marketing Manager position. This is my Skills test as requested by Brandon. </p>
+      <h1>Affiliate Marketing Manager Assesment</h1>
+
+      <h3>Pitch</h3>
+      <p>Below is an example of my approach in targeting and communicating with potential affiliates, to help sell and promote the Guac and Chips booth. <a href='mailto:jessicaaebersold@gmail.com'>Reach out with questions or thoughts</a>.</p>
     maxWidth: 'max-w-l'
 
   # Spacer
@@ -22,10 +24,13 @@ blocks:
     __typename: 'spacer'
     height: 'l'
 
-  # Example of using an asset
+  # Example of rendering html
   -
-    __typename: 'mediaAsset'
-    image: '/imgs/home/dj.jpg'
+    __typename: 'copy'
+    body:
+      <div class='iframe-wrap'><iframe frameborder="0" allowfullscreen="" width="100%" height="100%" src="https://player.vimeo.com/video/653304707?api=1&amp;background=1&amp;mute=1" class="section__video-iframe" data-ready="true">
+      </iframe></div>
+    maxWidth: 'max-w-full'
 
   # Spacer
   -
@@ -37,7 +42,7 @@ blocks:
     __typename: 'copy'
     body:
       <h2>01 / Identify one key influencer, creator, website or affiliate marketer in this space.</h2>
-      <p> After some thought, I reached into the back of my industry knowledge mind. After poking around through keynote speakers of Wedding Industry Speakers (a partner of NACE), I found a person I find to be of particular intrest for helping to promote the Guac and Chip Booth. Her name is Julie Roth Novack. She has 20 years of digital marketing experience in the wedding and event industy. She has a focus on building teaching others how to build their brand and their name in the industry. /<p>
+      <p> I believe the best route to finding an affiliate partner to help sell the Guac and Chip booth would be to look at places that wedding photographers look to for advice and ideas. My first stop in connection along these lines would be with <a href='https://www.youtube.com/c/Joymichellephotography/videos?view=0&sort=dd&shelf_id=0' target='blank'>Joy Michelle Photography</a>. She is a wedding photographer and content creator, helping others in the industry to start, grow their business, and expand. She has over 55k followers on Youtube alone, with an average 700 views per video uploaded.<p>
 
   # Spacer
   -
@@ -47,7 +52,7 @@ blocks:
   # Example of using an asset
   -
     __typename: 'mediaAsset'
-    image: '/imgs/home/wedding.jpg'
+    image: '/imgs/home/img1.jpg'
 
   # Spacer
   -
@@ -58,8 +63,23 @@ blocks:
   -
     __typename: 'copy'
     body:
-      <h2>02 / What</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id pretium lectus. Quisque hendrerit, nulla ultrices feugiat porta, ex velit venenatis erat, ut posuere lacus odio sit amet leo.</p>
+      <h2>02 / How would you go about convincing them to work with us? </h2>
+      <p>As a wedding photographer and influencer, Joy has worked hard to build a brand that helps others to create and grow their own businesses. Her entire focus is on using photography for event engagement, and teaching others to be successful in the wedding photography industry. How do we do this?</p>
+      
+      <h3>1.) Appeal to her already existing passion - helping photographers grow their business.</h3>
+      
+      <p>Joy already has a passion for helping people grow, so I would hone in with her passions- the easiest and cheapest way for her followers to add value to their services. And we know by adding a Guac and Chips Booth, her aspiring and growing wedding photographers can do that. We know that wedding clients generally look for a few things when adding additional packages to their bookings- value, technical support, customizations, and profit.</p>
+      
+      <h3>2.) What Value does it add to my wedding packages?</h3>
+      <p>The Guac and Chips booth offers printed out on site photos. These strips are customizable by design to fit any wedding theme, with the offering of premade designs or custom designs.</p> 
+      
+      <h3>3.) Technical Support?</h3>
+      
+      <p>Photobooth Supply Co. offers online support to help you through even the most complicated problems you may have with your booth, wither it's during setup, or live during the event. We are only a quick moment away from helping your event be successful.</p> 
+      
+      <h3>4.) Show Her the Numbers!</h3>
+
+      <p>Everyone likes to hear success stories. With Photobooth Supply Co's over 100 5 Star Reviews, it's easy to get caught up in the excitement. Using the profit calculator, her followers can see just how much they could make in their area codes, based on the amount of work and resources they want to put into growing their business. </p>
 
   # Spacer
   -
@@ -69,7 +89,7 @@ blocks:
   # Example of using an asset
   -
     __typename: 'mediaAsset'
-    image: '/imgs/home/wedding-2.jpg'
+    image: '/imgs/home/img2.jpg'
 
   # Spacer
   -
@@ -81,10 +101,22 @@ blocks:
   -
     __typename: 'copy'
     body:
-      <h2>Conclusion</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id pretium lectus. Quisque hendrerit, nulla ultrices feugiat porta, ex velit venenatis erat, ut posuere lacus odio sit amet leo.</p>
+      <h2>BUT HOW?</h2>
+      <p>We have already established that Joy has a fantastic following on her YouTube channel- so purising an online video review of Guac and Chips would be the easiest way for us to reach as many potential leads as we can. She already has a well established following, and leads would be easy to come by- since her followers are already hungry to grow and expand their wedding photography offerings. She can lean into her industry knowledge of growing wedding photography presence, and partner that with an already established track record of the Guac and Chips Booth.</p>
 
   # Spacer
+  -
+    __typename: 'spacer'
+    height: 'l'
+
+  -
+    __typename: 'copy'
+    body:
+      <h2>How do we become BFF's and How do I support her goals and establish a long lasting mutually beneficial relationship (thus helping Photobooth Supply Co.?)</h2>
+      
+      <p>First, I would establish what her goals are with our partnership, and how I can meet her to make sure our relationship is mutually beneficial. Does she want me following up weekly? Monthly? As we reach our numbers? What works best with her and how do I help her make as much money as she wants to, and encourage her to make us as much as we want? I will continue to offer her technical support, answer questions, and provide her with an affiliate landing page, where she can track her progress and follow up with our terms. I want her to feel empowered, so she trusts that in the industry we are the best to work with as an affiliate company. </p>
+
+    # Spacer
   -
     __typename: 'spacer'
     height: 'l'
